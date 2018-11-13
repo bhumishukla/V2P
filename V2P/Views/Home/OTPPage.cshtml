@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+
+<div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+        <img src="~/Images/V2P.PNG" style="margin-top:150px;" />
+        <div class="text-center" style="margin:60px 0px 0px 6px; font-family:'Monda', sans-serif; font-size:16px">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+        </div>
+        <div class="float-left" style="margin-top:160px;">
+            <p>Vendor To Pay-@DateTime.Now.Year </p>
+        </div>
+        <img src="~/Images/pci.png" class="float-right" style="margin-top:100px;" />
+    </div>
+
+    <div class="col-sm-5 col-md-5 col-lg-6 text-center" style="padding:180px 40px 40px 40px; background-color:#175aa9">
+        <div class="card">
+            <div class="form-group">
+                <h2 class="text-center font-weight-normal" style="color:#3399f3;padding-top:20px">OTP Verification</h2>
+            </div>
+            <hr class="border-primary" />
+            <div class="form-group col-sm-5 col-md-5 col-lg-8">
+                <h6 class="float-md-left" style="margin:9px 0px 0px 40px; color:#5699e8">Enter OTP</h6>
+                <div class="" style="border-radius:50px; margin-left:60px;">
+                    <input type="text" class="form-control" name="username" required="" autofocus="" />
+                </div>
+            </div>
+
+            <div class="col-sm-5 col-md-5 col-lg-8" style="padding-left:10px">
+                <button class="btn-primary" style="border-radius:10px;" type="submit" onclick="window.location.href(@Url.Action("SideNavigationbar","Shared"))">Submit</button>
+                <button class="btn-primary" style="border-radius:10px;" type="submit">Resend</button>
+                <button class="btn-primary" style="border-radius:10px;" type="submit">Cancel</button>
+            </div>
+            <br />
+        </div>
+    </div>
+</div>

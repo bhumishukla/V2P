@@ -1,0 +1,286 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.main-slider
+{
+height:100vh;
+}
+.main-vision {
+   background: #2d60a1;	
+    padding: 100px 100px;
+}
+.ser-fet {
+    font-family: 'Monda', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: #000;
+}
+
+.icon-bar a {
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+.image-wid img {
+  max-width:100%;
+}
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+/* Home Page CSS Start */
+.main-navigation.navbar-default
+{
+	min-height:100px;
+	background:#fff;
+	border:none;
+}
+.main-navigation .navbar-brand
+{
+	padding:10px;
+}
+.main-navigation .navbar-brand img
+{
+	width:80%;
+}
+#navbar .main-navbar {
+    margin-top:25px;
+}
+.carousel-control.left
+{
+float:right;
+}
+.main-slider-set
+{
+right:auto;
+}
+.carousel-caption{
+    font-size: 28px;
+    width: 60%;
+}
+/* About Page CSS Start */
+.md-top-100{
+margin-top:100px;
+}
+.main-heading
+{
+	background:#2d60a1;
+	text-align:center;
+    width:100%;
+	/* height:150px; */
+}
+.main-heading h1
+{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:200;
+	line-height:150px;
+	font-size:30px;
+	margin:0;
+}
+.heading-second{
+color:#e98523;
+font-size:26px;
+text-align:center;
+text-transform:uppercase;
+font-weight:200;
+line-height:100px;
+}
+.vision-block
+{
+/* height:200px; */
+padding:20px;
+background:#fff;
+}
+.Pillars ul li {
+    font-size: 30px;
+	padding-bottom:15px;
+	font-weight:100;
+}
+.heading-third {
+    color: #2d60a1;
+    font-size: 24px;
+    font-weight: bold;
+	padding-bottom: 15px;
+}
+.heading-second-hd
+{
+	color:#fff;
+	font-size:26px;
+	padding-bottom:20px;
+}
+.main-vision-login {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.contact-form-block {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(-10%, -50%);
+}
+.vision-block h1 {
+    background: #3572bf;
+    margin: 0px;
+    padding: 0px;
+	color: white;
+}
+.vision-block-1 h1 {
+    background: #e2802d;
+    margin: 0px;
+    padding: 0px;
+	color: white;
+}
+.vision-block-1 {
+    height: 200px;
+    background: #fff;
+	}
+.main-vision-footer {
+    background: #2d60a1;
+    padding: 20px;
+    align-content:center;
+}
+.vision-footer 
+{
+float:right;
+text-align:right;
+}
+.vision-footer img
+{
+width:25%;
+}
+.footer-text
+{
+padding-top:20px;
+color:#fff;
+}
+.video-text
+{
+color:#2d60a1;
+text-align:center;
+font-weight:200;
+font-size:30px;
+padding-bottom:20px;
+}
+.main-space
+{
+padding:70px 0;
+}
+.home-menu ul
+{
+display:block;
+}
+.home-menu ul li
+{
+display:inline-block;
+list-style:none;
+padding:10px;
+color:#fff;
+font-size:22px;
+font-weight:400;
+}
+.home-menu-block
+{
+background:#3572bf;
+padding:20px;
+}
+.home-menu h1
+{
+font-size:30px;
+color:#fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+background:none;
+color:#e98523;
+font-weight:400;
+font-size:14px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover
+{
+color:#e98523;
+font-weight:400;
+font-size:14px;
+}
+.navbar-default .navbar-nav>li>a
+{
+font-weight:400;
+font-size:14px;
+text-transform:uppercase;
+}
+.main-submit{
+padding:15px 25px;
+background:#2d60a1;
+color:#fff;
+border-radius:4px;
+border:none;
+
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top:100px;
+}
+.container img {
+    vertical-align: middle;
+}
+
+.container1 .content1 {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    padding: 10px;
+    left: 16px;
+}
+.doctor-port {
+    padding: 0em 0em 3em;
+    text-align: center;
+}
+.caption {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    z-index: 999;
+    background: rgba(121, 207, 209, 0.63);
+    padding: 0.8em 0.5em;
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transform-style: preserve-3d;
+    display: none;
+}

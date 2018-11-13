@@ -1,0 +1,260 @@
+﻿
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<title>::V2P::</title>
+<!-- Bootstrap core CSS -->
+<link href="../Content/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="../Content/css/carousel.css" rel="stylesheet">
+
+<link href="~/Content/style.css" rel="stylesheet" />
+<link href="../Content/css/style.css" rel="stylesheet">
+
+<!-- Header Start -->
+<nav class="navbar-default navbar-fixed-top main-navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="Index.cshtml"><img src="../images/logo.jpg"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right main-navbar">
+                <li class="active"><a href="Index.cshtml">Home</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        About Us
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="~/Home/whoweare.html">Who we are</a></li>
+                        <li><a href="~/Home/vision-mission.html">Vision & Mision</a></li>
+                        <li><a href="~/Home/pillars.html">Our Pillars</a></li>
+                        <li><a href="~/Home/our-mentors.html">Our Mentors</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Products
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="~/Home/maestro.html">V2P Maestro</a></li>
+                        <li><a href="~/Home/rentals.html">V2P Rentals</a></li>
+                        <li><a href="~/Home/statutory.html">V2P Statutory</a></li>
+                        <li><a href="~/Home/tmc.html">V2P TMC Solutions</a></li>
+                        <li><a href="~/Home/fuel.html">V2P Fuel</a></li>
+                    </ul>
+                </li>
+                <li><a href="~/Home/benefit.html">V2P Benefits</a></li>
+                <li><a href="~/Home/contact.html">Contact Us</a></li>
+                <li>@Html.ActionLink("Login","Login","Home")</li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+<!-- Header End -->
+<!-- Content Start Here-->
+<div class="container1">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            <li data-target="#myCarousel" data-slide-to="8"></li>
+        </ol>
+
+
+        <div class="carousel-inner" role="listbox">
+            <div class="item active  image-wid">
+                <img src="~/images/b1.jpg" alt="..." class="img-responsive">
+                <div class="carousel-caption">
+                    <h3>Last Mile</h3>
+                    <p> Last mile in B2B payments</p>
+                    <a href="~/Home/know-more.html"><button type="button" class="btn btn-info sld" style="border:none">Read more</button></a>
+                </div>
+            </div>
+            <div class="item  image-wid">
+                <img src="~/images/b2.jpg" alt="..." class="img-responsive">
+                <div class="carousel-caption">
+                    <h3>B2B Transformation</h3>
+                    <p>Transforming business to business payments...</p>
+                    <a href="~/Home/know-more.html"><button type="button" class="btn btn-info sld" style="border:none">Read more</button></a>
+                </div>
+            </div>
+            <div class="item image-wid">
+                <img src="~/images/b3.jpg" alt="..." class="img-responsive">
+                <div class="carousel-caption">
+                    <h3>Data : Payments</h3>
+                    <p>Where data and payments meet...</p>
+                    <a href="~/Home/know-more.html"><button type="button" class="btn btn-info sld" style="border:none">Read more</button></a>
+                </div>
+            </div>
+            <div class="item  image-wid">
+                <img src="~/images/b4.jpg" alt="..." class="img-responsive">
+                <div class="carousel-caption">
+                    <h3>Streamlined</h3>
+                    <p>Bringing all the processes on a single platform...</p>
+                    <a href="~/Home/know-more.html"><button type="button" class="btn btn-info sld" style="border:none">Read more</button></a>
+                </div>
+            </div>
+
+            <div class="item image-wid">
+                <img src="~/images/b5.jpg" alt="..." class="img-responsive">
+                <div class="carousel-caption">
+                    <h3>Revenue</h3>
+                    <p>Generating revenue from payments...</p>
+                    <a href="~/Home/know-more.html"><button type="button" class="btn btn-info sld" style="border:none">Read more</button></a>
+                </div>
+            </div>
+
+            <div class="item  image-wid">
+                <img src="~/images/b6.jpg" alt="..." class="img-responsive">
+                <div class="carousel-caption">
+                    <h3>Relationship</h3>
+                    <p>Relationship beyond transactions...</p>
+                    <a href="~/Home/know-more.html"><button type="button" class="btn btn-info sld" style="border:none">Read more</button></a>
+                </div>
+            </div>
+
+            <div class="item  image-wid">
+                <img src="~/images/b7.jpg" alt="..." class="img-responsive">
+                <div class="carousel-caption">
+                    <h3>Emerging B2B Market</h3>
+                    <p>Defining contours of rapidly emerging B2B payments market...</p>
+                    <a href="~/Home/know-more.html"><button type="button" class="btn btn-info sld" style="border:none">Read more</button></a>
+                </div>
+            </div>
+
+            <div class="item  image-wid">
+                <img src="~/images/b8.jpg" alt="..." class="img-responsive">
+                <div class="carousel-caption">
+                    <h3>Vendor Management</h3>
+                    <p>Creating your vendor network...</p>
+                    <a href="~/Home/know-more.html"><button type="button" class="btn btn-info sld" style="border:none">Read more</button></a>
+                </div>
+            </div>
+
+
+            <div class="item  image-wid">
+                <img src="~/images/b9.jpg" alt="..." class="img-responsive">
+                <div class="carousel-caption">
+                    <h3>Closed Loop Network</h3>
+                    <p>Your closed loop network for vendor payments...</p>
+                    <a href="~/Home/know-more.html"><button type="button" class="btn btn-info sld" style="border:none">Read more</button></a>
+                </div>
+            </div>
+
+        </div>
+        <!-- Controls -->
+
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<br />
+<div class="doctor-port" id="doc">
+    <h3>Videos</h3>
+
+    <div class="container">
+        <div id="owl-demo" class=" text-center owl-theme">
+            <div class="item g1" align="center">
+                <a href="https://www.youtube.com/embed/JqqHWqruwVM?rel=0" data-toggle="lightbox" data-gallery="youtubevideos" data-title="V2P Fuel Depot Sales" data-width="1024">
+                    <img class="lazyOwl img-responsive" src="../images/v2p-fuel-ban.jpg" alt="name" />
+                </a>
+                <div class="caption">
+                    <span>V2P Fuel Depot Sales</span>
+                </div>
+            </div>
+
+
+            <div class="item g1" align="center">
+                <a href="https://www.youtube.com/embed/BALmDowAlJ0?rel=0" data-toggle="lightbox" data-gallery="youtubevideos" data-title="V2P Maestro" data-width="1024"><img class="lazyOwl img-responsive" src="../images/v2p-maestro-ban.jpg" alt="name" /></a>
+                <div class="caption">
+                    <span>V2P Maestro</span>
+                </div>
+            </div>
+
+
+            <div class="item g1" align="center">
+                <a href="https://www.youtube.com/embed/n4QUSVn2zJI?rel=0" data-toggle="lightbox" data-gallery="youtubevideos" data-title="V2P Rental" data-width="1024"><img class="lazyOwl img-responsive" src="../images/v2p-rental-ban.jpg" alt="name" /></a>
+                <div class="caption">
+                    <span>V2P Rental</span>
+                </div>
+            </div>
+
+
+            <div class="item g1" align="center">
+                <a href="https://www.youtube.com/embed/CYnlA1F5Tuo?rel=0" data-toggle="lightbox" data-gallery="youtubevideos" data-title="V2P Fuel RO Sales" data-width="1024"><img class="lazyOwl img-responsive" src="../images/v2p-fuel-ban.jpg" alt="name" /></a>
+                <div class="caption">
+                    <span>V2P Fuel RO Sales</span>
+                </div>
+            </div>
+
+            <div class="item g1" align="center">
+                <a href="https://www.youtube.com/embed/YhUFr1mld30?rel=0" data-toggle="lightbox" data-gallery="youtubevideos" data-title="V2P Statutory" data-width="1024"><img class="lazyOwl img-responsive" src="../images/v2p-statutory-ban.jpg" alt="name" /></a>
+                <div class="caption">
+                    <span>V2P Statutory</span>
+                </div>
+            </div>
+            <div class="item g1" align="center">
+                <a href="https://www.youtube.com/embed/_OSBWiIrzcU?rel=0" data-toggle="lightbox" data-gallery="youtubevideos" data-title="V2P Travel" data-width="1024"><img class="lazyOwl img-responsive" src="../images/v2p-travel-ban.jpg" alt="name" /></a>
+                <div class="caption">
+                    <span>V2P Travel</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Content Ends Here-->
+<!-- Footer Start -->
+<div id="Footer">
+
+</div>
+<!-- Footer End -->
+
+<script>
+    $(function () {
+        $("#Header").load("Header.html");
+        $("#Footer").load("Footer.html");
+    });
+    $(document).ready(function () {
+        $("#owl-demo").owlCarousel({
+            items: 3,
+            lazyLoad: true,
+            autoPlay: true,
+            pagination: true,
+        });
+    });
+
+    $(document).ready(function ($) {
+
+        $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    });
+</script>

@@ -1,0 +1,106 @@
+﻿<!doctype html>
+<html>
+<head>
+    
+</head>
+<body>
+    <!-- Header Start -->
+    <div id="Header">
+
+    </div>
+    <!-- Header End -->
+    <div class="header_banner">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner-i" role="listbox">
+                <div class="item active  image-wid">
+                    <img src="../images/d11.jpg" alt="..." class="img-responsive">
+                    <div class="carousel-caption-i" style="background:rgba(0,0,0,0.65); width:40%;">
+
+                        <div class="">
+                            <h3>Revolutionize B2B Payments</h3>
+                            <p>Why  us?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Controls -->
+        </div>
+    </div>
+    <div class="contentbox">
+        <div class="service_features" id="features">
+            <div class="container">
+                <div class="ser-fet">
+                    <p>India&rsquo;s  extremely unique yet nascent B2B payments industry is ready for dramatic  growth. B2B transactions have come a long way from Paper to Plastic and is poised  to take the next giant leap. </p>
+                    <p>
+                        <br>
+                        As we witness  rapid progression of B2B payments from manual to automated systems, the value  chain is throwing up challenges and making demands of Execution Excellence,  Controlled Risk-taking, Innovative Distribution and Intuitive Vendor Management.
+                    </p>
+                    <p>
+                        <br>
+                        Over its rich,  varied and deep understanding of B2B markets, V2p has evolved solutions that  streamline challenges of supply chain efficiencies and management of vendor  payments on a single platform.
+                    </p>
+                    <p>
+                        <br>
+                        We recognise the  many pain points of B2B payments and offer end to end service packages backed  by strong alliances facilitating suppliers and buyers to enjoy increased cash  flow without straining their working capital.
+                    </p>
+                    <p>
+                        <br>
+                        We act as a  catalyst with a closed loop system streamlining vendor network, transaction  data, remittances, reconciliations and a reporting system measuring efficacy.  All our products are driven by regulatory, statutory and contractual, core to  B2B markets unlocking value streams in the rapidly emerging B2B payments  markets.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p> V2p moves beyond  transactions and brings in a system in India first, which leads to economic  empowerment for the enterprise.</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="V2PFooter">
+
+    </div>
+
+</body>
+<!-- InstanceEnd -->
+</html>
+
+
+<script language="javascript">
+    $(function () {
+        $("#Header").load("Header.html");
+        $("#Footer").load("Footer.html");
+    });
+    function validate() {
+        if (document.form1.vname.value == '') {
+            alert('Please enter valid Name');
+            document.form1.vname.focus();
+            return false;
+        }
+        if (document.form1.vemail.value == '') {
+            alert('Please enter valid Email');
+            document.form1.vemail.focus();
+            return false;
+        }
+
+        if (!(/^[A-Za-z0-9]{1,}([\.-]?[A-Za-z0-9_]{1,})*@{1}[A-Za-z0-9]{1,}([\.-]?[A-Za-z0-9]{1,})*(\.[A-Za-z]{2,4})$/.test(document.form1.vemail.value))) {
+            alert('Invalid Email!');
+            document.form1.vemail.focus();
+            return false;
+        }
+        if (document.form1.vmsg.value == '') {
+            alert('Please enter valid Message');
+            document.form1.vmsg.focus();
+            return false;
+        }
+    }
+</script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 900);
+        });
+    });
+</script>

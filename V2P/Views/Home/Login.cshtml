@@ -1,0 +1,56 @@
+﻿
+@{
+    Layout = null;
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+            <img src="" style="margin-top:150px;" />
+            <div class="text-center" style="margin:60px 0px 0px 6px; font-family:'Monda', sans-serif; font-size:16px">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+            <div class="float-left" style="margin-top:160px;">
+                <p>Vendor To Pay-@DateTime.Now.Year </p>
+            </div>
+            <img src="~/Images/pci.png" class="float-right" style="margin-top:100px;" />
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6" style="background-color:#175aa9; padding:0px 0px 0px 0px">
+            <div class="col-lg-10" style="padding:160px 80px 20px 90px;">
+                <div class="card">
+                    <div class="modal-heading">
+                        <h2 class="text-center font-weight-normal" style="color:#3399f3;padding-top:20px">SIGN IN</h2>
+                    </div>
+                    <hr />
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <h6 style="margin-left:15px; color:#5699e8">Email</h6>
+                                <div class="col-md-10" style="border-radius: 12px;">
+                                    <input type="text" class="form-control-range" name="username" required="" autofocus="" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <h6 style="margin-left:15px;color:#5699e8">Password</h6>
+                                <div class="col-md-10" style="border-radius: 12px;">
+                                    <input type="password" class="form-control-range" name="password" required="" autofocus="" />
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <div class="col-md-5">
+                                    @Html.ActionLink("Log In", "OTPPage", "Home", null, new { @class = "btn btn-primary", @style = "margin-left:50px;width:60%;height:45px;border-radius:12px;" })
+                                </div>
+                                <div class="col-lg-10">
+                                    <a href="#" class="btn" style="margin-left:0px; margin-top:0px; color:#3399f3">Forgot Password ?</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
